@@ -30,23 +30,21 @@ body {
     margin: 10px;
     position: absolute;
     top: 45px;
-    left: 248px;
+    left: 825px;
 }
 /* PROFILE END */
 
 /* POINT BUTTON START */
 .pointbtn {
-    color: gray;
     display: inline-block;
     width: 18%;
     margin: 0px;
     text-align: right;
     position: absolute;
-    right: 220px;
+    right: 800px;
     top: 45px;
 }
 .pointbtn img {
-    color: gray;
     display: inline-block;
     width: 18%;
     margin: 0px;
@@ -71,10 +69,10 @@ i:last-child {
 /* ICONS END */
 
 .likes {
-    margin: 10px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 .caption-photo {
     background: white;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
 }
