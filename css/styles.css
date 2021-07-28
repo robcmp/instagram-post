@@ -14,9 +14,9 @@ body {
 }
 /* PROFILE START */
 .profile {
-    display: inline-block;
+    display: flex;
     width: 80%;
-    margin: 5px;
+    padding: 10px 0px 10px 5px;
 }
 .profile-img {
     border-radius: 50%;
@@ -24,13 +24,9 @@ body {
 }
 .profile span {
     margin: 5px;
-    position: absolute;
 }
 .profile span:last-child {
-    margin: 10px;
-    position: absolute;
-    top: 45px;
-    left: 825px;
+    margin: 5px;
 }
 /* PROFILE END */
 
@@ -38,11 +34,12 @@ body {
 .pointbtn {
     display: inline-block;
     width: 18%;
-    margin: 0px;
-    text-align: right;
-    position: absolute;
-    right: 800px;
-    top: 45px;
+    margin-top: 10px;
+    margin-left: 225px;
+    /* text-align: right; */
+    /* position: absolute; */
+    /* right: 800px; */
+    /* top: 45px; */
 }
 .pointbtn img {
     display: inline-block;
